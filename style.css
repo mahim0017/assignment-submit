@@ -66,15 +66,17 @@ nav{
     font-weight: 500;
     display: inline-flex;
     gap: 6px;
+    margin-bottom: 16px;
 }
-.banner-content h1{
+#banner h1{
     /* font-weight: 700; */
     color: white;
     font-size:72px;
     text-align: center;
     margin-bottom: 18px;
+    max-width: 700px;
 }
-.banner-content .highlight{
+.highlight{
     color: #30B868;
 }
 #banner .banner-paragraph{
@@ -82,6 +84,8 @@ nav{
     text-align: center;
     color: white;
     margin-bottom: 32px;
+    max-width: 700px;
+    line-height: 35px;
 }
 .button-section {
     display: flex;
@@ -92,4 +96,36 @@ nav{
 #button {
     background-color: transparent;
     border: 1px solid;
+}
+#notes-section {
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.notes-title{
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.notes-title h2{
+    font-size: 48px;
+    color: #001931;
+}
+.notes-title p{
+    color: #627382;
+    margin-top:16px;
+    margin-bottom:44px;
+}
+.card-box{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-between;
+    gap: 24px;
+    flex-direction: column;
 }
