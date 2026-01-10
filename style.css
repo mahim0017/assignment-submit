@@ -22,7 +22,12 @@
     cursor: pointer;
     gap: 5px;
     display: inline-flex;
+    transition: transform 0.3s ease;
 
+}
+.btn:hover{
+    transform: scale(0.95);
+    background-color: rgb(66, 43, 43);
 }
 /* custom style  */
 .inter {
