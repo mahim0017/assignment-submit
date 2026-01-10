@@ -97,35 +97,88 @@ nav{
     background-color: transparent;
     border: 1px solid;
 }
-#notes-section {
-    background-color: #FBFBFB;
+
+#notes-section{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    /* justify-content: center; */
-    
+    background-color: #FBFBFB;
 }
 .notes-title{
     margin-top: 69px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
 }
 .notes-title h2{
     font-size: 48px;
     color: #001931;
+    margin-bottom: 16px;
 }
 .notes-title p{
     color: #627382;
-    margin-top:16px;
-    margin-bottom:44px;
+    margin-bottom: 44px;
 }
-.card-box{
+#card-box{
     display: flex;
-    /* flex-direction: row; */
-    justify-content:space-between;
+    justify-content: space-between;
     gap: 24px;
+}
+.card{
+    background-color: #FFFFFF;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 70px 24px;
+    width: 310px;
+    border-radius: 8px;
+}
+.card .icon{
+    background-color: #F95555;
+    border-radius: 30px;
+    align-items: center;
+    margin-bottom: 16px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+.card h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card p{
+    color: #627382;
+
+}
+#brain-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 120px;
+}
+.brain-content{
+    max-width: 500px;
+}
+.content-solution{
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.brain-content h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.brain-content .main-paragraph{
+    color: #627382;
+    margin-bottom: 40px;
+}
+.list-section li {
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 5px;
 }
